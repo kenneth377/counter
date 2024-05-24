@@ -41,9 +41,11 @@ p{
 
 #buttonsbox button:hover{
     cursor: pointer;
+    background-color: white;
+    color: black;
 }
 
 #buttonsbox button:focus{
-    color:aqua
+    color:brown
 }
 
