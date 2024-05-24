@@ -1,0 +1,49 @@
+:root{
+    --bgblack: rgb(0,0,0);
+    --txtcolor: aliceblue;
+    
+}
+
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    color: var(--txtcolor);
+    font-family: cursive;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: var(--bgblack);
+}
+
+h3{
+    font-size: 1000%;
+}
+
+p{
+    font-size: 800%;
+}
+
+#buttonsbox{
+    width: 30%;
+    display: flex;
+    height: 25%;
+    min-width: 50%;
+}
+
+#buttonsbox button{
+    width: 30%;
+    background: none;
+    border: 2px solid var(--txtcolor);
+}
+
+#buttonsbox button:hover{
+    cursor: pointer;
+}
+
+#buttonsbox button:focus{
+    color:aqua
+}
+
